@@ -1,17 +1,26 @@
 Physics Formula Quick Search Tool
-A desktop application for searching physics formulas by keyword or topic, built with Python and Tkinter.
+About
 Students: Amina Fida | Areeba Adeel
 University: Pakistan Institute of Engineering and Applied Sciences (PIEAS)
 Department: Department of Physics and Applied Mathematics
-Course: AICT | Instructor: Sir Atif Raza
+Course: AICT
+Instructor: Sir Atif Raza
+Lab Assistant: Sir Mosa
+Submission Date: May 3, 2026
+Description
+A desktop application for searching physics formulas by keyword or topic
+Built using Python and the built-in Tkinter library
+Contains 30+ physics formulas across multiple topics
 Features
 🔍 Live search — results update instantly as you type
-🗂️ Topic filters — browse by Mechanics, Energy, Waves, Electricity, Thermodynamics, Gravitation, and Circular Motion
-🃏 Formula cards — each result displays the equation, variables, and topic with a color-coded sidebar
-30+ physics formulas included
+🗂️ Topic filters — Mechanics, Energy, Waves, Electricity, Thermodynamics, Gravitation, Circular Motion
+🃏 Color-coded formula cards showing equation, variables, and topic
+Clear button to reset and show all formulas
 How to Run
-Make sure Python is installed
+Make sure Python is installed on your system
 No extra libraries needed — uses built-in tkinter
-Run the program: python physics_search.py
+Run the command: python physics_search.py
 How It Works
-Formulas are stored as a list of dictionaries with name, formula, topic, variables, and keywords. When you type in the search box, the app instantly filters matching formulas and renders them as styled cards.
+Formulas are stored as dictionaries with name, formula, topic, variables, and keywords
+Search box uses live event binding — no button press needed
+Matching formulas are displayed as styled cards with color-coded topic sidebars
